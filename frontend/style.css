@@ -1514,9 +1514,3 @@ img {
 
 /* ====== The End ====== */
 
-.card-div {
-  width: 18rem;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 2em;
-}

@@ -77,6 +77,5 @@ $route['post/update/(:any)']['POST'] = 'PostController/update/$1';
 $route['post/store']['POST'] = 'PostController/store';
 
 //home
-
-//chitiet
-$route['chitiet']['GET'] = 'ChitietController/index';
+$route['danh-muc/(:any)']['GET'] = 'HomeController/brand/$1';
+$route['bai-viet/(:any)']['GET'] = 'HomeController/post/$1';
