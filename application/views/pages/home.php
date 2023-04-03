@@ -147,7 +147,7 @@
                                             <!-- Blog Content -->
                                             <div class="blog-content">
                                                 <span class="post-date">22-3-2023</span>
-                                                <a href="<?php echo base_url('index.php/bai-viet/'.$row->id) ?>" class="post-title"><?php echo $ps->title ?></a>
+                                                <a href="<?php echo base_url('index.php/bai-viet/'.$ps->id) ?>" class="post-title"><?php echo $ps->title ?></a>
                                             </div>
                                         </div>
                                     </div>
@@ -356,7 +356,7 @@
                         <div class="blog-content">
                             <span class="post-date">22-3-2023</span>
                             <!-- <a href="#" class="post-title"><?php echo $ps->description?> </a> -->
-                            <a href="<?php echo base_url('index.php/bai-viet/'.$row->id) ?>" class="post-author"><?php echo $ps->title?></a>
+                            <a href="<?php echo base_url('index.php/bai-viet/'.$ps->id) ?>" class="post-author"><?php echo $ps->title?></a>
                         </div>
                     </div>
                 <?php } ?>
