@@ -324,7 +324,7 @@
                                 <div class="blog-content">
                                     <span class="post-date">22-3-2023</span>
                                     <p class="post-title"><?php echo $row->title?></p>
-                                    <a href="#" class="post-author">By Michael Smith</a>
+                                    <a href="#" class="post-author">By Michaels Smith</a>
                                 </div>
                             </div>
                             <?php } ?>
@@ -350,12 +350,12 @@
                     <div class="single-blog-post style-2 mb-5">
                         <!-- Blog Thumbnail -->
                         <div class="blog-thumbnail">
-                            <a href="#"><img src="<?php echo base_url('uploads/post/'.$ps->image)?>" alt=""></a>
+                            <a href="#"><img  src="<?php echo base_url('uploads/post/'.$ps->image)?>" alt=""></a>
                         </div>
                         <!-- Blog Content -->
                         <div class="blog-content">
                             <span class="post-date">22-3-2023</span>
-                            <!-- <a href="#" class="post-title"><?php echo $ps->description?> </a> -->
+                            
                             <a href="<?php echo base_url('index.php/bai-viet/'.$ps->id) ?>" class="post-author"><?php echo $ps->title?></a>
                         </div>
                     </div>
@@ -365,11 +365,10 @@
                 <div class="col-12">
                     <div class="load-more-button text-center">
                         <a href="#" class="btn newsbox-btn">Load More</a>
+                        
                     </div>
                 </div>
-
             </div>
-            
         </div>
     </div>
     <!-- ##### Top News Area End ##### -->
